@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "image-stack"
+name = "imgstack-deps"
 dynamic = ["version"]
 description = "Curated dependency bundle to bootstrap image processing projects"
 readme = "README.md"
@@ -49,8 +49,8 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/OrsoMinore/image_stack"
-Issues = "https://github.com/OrsoMinore/image_stack/issues"
+Homepage = "https://github.com/OrsoMinore/imgstack_deps"
+Issues = "https://github.com/OrsoMinore/imgstack_deps/issues"
 
 [tool.hatch.version]
 path = "src/image_stack/__init__.py"

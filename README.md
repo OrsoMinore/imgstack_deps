@@ -1,14 +1,14 @@
-# image-stack
+# imgstack-deps
 
-A single dependency to bootstrap image-processing projects. `image-stack` pulls
-in a curated, version-pinned-with-headroom set of the most commonly needed
-image-processing libraries so you don't have to hand-pick and pin them
-yourself.
+A single dependency to bootstrap image-processing projects. `imgstack-deps`
+pulls in a curated, version-pinned-with-headroom set of the most commonly
+needed image-processing libraries so you don't have to hand-pick and pin them
+yourself. It installs the importable `image_stack` package.
 
 ## Install
 
 ```bash
-pip install image-stack
+pip install imgstack-deps
 ```
 
 This brings in:
@@ -23,7 +23,7 @@ This brings in:
 - [`matplotlib`](https://matplotlib.org/)
 - [`torch`](https://pytorch.org/) / [`torchvision`](https://pytorch.org/vision/stable/index.html)
 
-`pip install image-stack` on Linux/Windows pulls PyTorch's default PyPI wheel,
+`pip install imgstack-deps` on Linux/Windows pulls PyTorch's default PyPI wheel,
 which bundles CUDA support out of the box (no extra index needed) — `torch.cuda.is_available()`
 will be `True` on a machine with a compatible NVIDIA GPU and drivers installed.
 On macOS you get the CPU/MPS build.
